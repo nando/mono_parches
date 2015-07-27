@@ -18,6 +18,11 @@ Author: Justin Weiss (http://justinweiss.com)
 
 ## Installation
 
+```
+git clone http://github.com/nando/mono_parches
+```
+
+**TODO: make the gem available in rubygems.org**
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -37,7 +42,7 @@ Or install it yourself as:
 ```ruby
 require 'mono_parches'
 # Actually monkey-patch whatever you love:
-DateTime.include CoreExtensions::DateTime::BusinessDays
+Hash.include CoreExtensions::Hash::Merging
 ```
 
 ## Development
